@@ -7,6 +7,6 @@ class User < ApplicationRecord
   enum role: [:user, :admin]
 
   def admin?
-    role == :admin
+    role == 'admin'
   end
 end
